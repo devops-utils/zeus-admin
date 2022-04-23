@@ -6,6 +6,7 @@ go build -o zeus
 cd pkg/webui
 cnpm install
 npm run build:prod
+npm run build:work
 ```
 
 ```shell
