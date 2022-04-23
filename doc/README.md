@@ -1,5 +1,5 @@
 ```shell
-./scripts/build.sh
+go build -o zeus
 ```
 
 ```shell
