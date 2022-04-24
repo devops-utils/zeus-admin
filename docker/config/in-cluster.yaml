@@ -57,7 +57,7 @@ database:
       max: 20
       min: 5
 redis:
-  host: 127.0.0.1:6379
+  host: 172.21.16.11:6379
   pool:
     max: 20
     min: 3
