@@ -34,18 +34,18 @@ lang:
   names: 简体中文|English
   types: zh-CN|en-US
 ldap:
-  addr: 127.0.0.1:389
+  addr: 172.21.16.11:389
   attributes:
     - cn
     - displayName
     - mail
   authfilter: (&(uid=%s))
-  basedn: dc=bullteam,dc=com
-  binddn: cn=admin,dc=bullteam,dc=com
-  bindpass: zeus@admin#123456
+  basedn: dc=7otech,dc=com
+  binddn: cn=admin,dc=7otech,dc=com
+  bindpass: admin
   starttls: false
   tls: false
-  userdn: cn=admin,dc=bullteam,dc=com
+  userdn: cn=admin,dc=7otech,dc=com
 mode: release
 database:
   driver: sqlite
