@@ -19,6 +19,12 @@ sudo docker start zeus
 sudo docker rm zeus
 
 http://49.232.6.131:8072/#/
+
+sqlite3 data/zeus.db
+sqlite3 data/zeus.db ".read scripts/init.sql"
+
+sqlite3 db/boardsprofile.db ".dump" > /var/ftp/profile.sql
+sqlite3 test.db ".read /var/ftp/profile.sql"  
 ```
 
 ```shell
