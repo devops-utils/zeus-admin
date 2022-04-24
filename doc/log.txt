@@ -4,3 +4,9 @@
 /usr/bin/ld: cannot find -ldl
 /usr/bin/ld: cannot find -lc
 collect2: error: ld returned 1 exit status
+
+ps -ef
+PID   USER     TIME  COMMAND
+    1 root      0:00 /zeus server --config=./config/in-cluster.yaml --port=80 --cors=false
+   31 root      0:00 sh
+   41 root      0:00 ps -ef
