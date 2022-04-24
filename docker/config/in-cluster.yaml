@@ -62,4 +62,4 @@ redis:
     max: 20
     min: 3
 project:
-  merge: true/
+  merge: true
