@@ -14,6 +14,8 @@ sudo docker logs -f zeus
 sudo docker stop zeus
 sudo docker start zeus
 sudo docker rm zeus
+
+http://49.232.6.131:8072/#/
 ```
 
 ```shell
