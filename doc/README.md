@@ -9,7 +9,7 @@ cnpm install
 npm run build:prod
 npm run build:work
 
-sudo docker run -d --name=zeus -p 8072:80 -v $pwd/data:/data bullteam/zeus-admin:latest
+sudo docker run -d --name=zeus -p 8072:80 -v "$(pwd)"/data:/data bullteam/zeus-admin:latest
 
 sudo docker exec -it zeus sh
 
