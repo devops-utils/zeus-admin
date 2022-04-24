@@ -12,4 +12,6 @@ npm run build:work
 
 ```shell
 http://doc.bullteam.cn/guide/install.html
+
+npm install tui-editor
 ```
